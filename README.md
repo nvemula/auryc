@@ -2,6 +2,18 @@
 
 Please clone this repository and run `npm install` to get started
 
+## Project Structure
+
+The fields required for the feedback form are organized in separate files for easy maintenance and for using them in other pages.
+
+Constants are put in a separate file for easy localization.
+
+Redux is not necessary here because the data is not modified by other components and the data is local to this component i.e everything can be managed by the component state.
+
+Field Labels and strings can be moved to separate files for easy localization and accessability.
+
+Test cases can be created using [https://jestjs.io/](jest) to further improve this project.
+
 ## Available Scripts
 
 In the project directory, you can run:
